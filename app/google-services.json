@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "298220045191",
+    "project_id": "universidadmartesnoche",
+    "storage_bucket": "universidadmartesnoche.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298220045191:android:1ec3a8eb6d889828cd0922",
+        "android_client_info": {
+          "package_name": "com.example.universidadmartesnoche"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298220045191-rod7o6bv2mjeskri77eiplj34bvuuhjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG1SE9gjY8xDbYnVOswBt-Iv9eJeTl8qY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298220045191-rod7o6bv2mjeskri77eiplj34bvuuhjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

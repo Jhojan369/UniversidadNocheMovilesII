@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Subjects">
+
+  <TextView
+      android:id="@+id/tvtitulo"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginTop="50dp"
+      android:textSize="35dp"
+      android:gravity="center"
+      android:text="Materias" />
+
+  <LinearLayout
+      android:layout_width="370dp"
+      android:layout_height="60dp"
+      android:layout_marginTop="10dp"
+      android:layout_gravity="center"
+      android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/etCodigo"
+        android:layout_width="179dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Codigo"
+        android:inputType="number"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btbuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textSize="25dp"
+        android:onClick="ConsultarMateria"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Buscar" />
+  </LinearLayout>
+
+  <EditText
+      android:id="@+id/etnombre"
+      android:layout_width="370dp"
+      android:layout_height="60dp"
+      android:textSize="30dp"
+      android:enabled="false"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:gravity="center"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:hint="Nombre" />
+
+  <EditText
+      android:id="@+id/etCreditos"
+      android:layout_width="370dp"
+      android:layout_height="60dp"
+      android:textSize="30dp"
+      android:enabled="false"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:gravity="center"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:hint="Creditos" />
+
+  <CheckBox
+      android:id="@+id/cbactivo"
+      android:layout_width="370dp"
+      android:layout_height="60dp"
+      android:textSize="30dp"
+      android:enabled="false"
+      android:layout_marginTop="10dp"
+      android:layout_gravity="center"
+      android:text=" Activo" />
+
+  <LinearLayout
+      android:layout_width="370dp"
+      android:layout_height="60dp"
+      android:layout_marginTop="40dp"
+      android:layout_gravity="center"
+      android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btadicionar"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:onClick="AdicionarMateria"
+        android:enabled="false"
+        android:text="Adicionar"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btmodificar"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="6dp"
+        android:textSize="24dp"
+        android:enabled="false"
+        android:onClick="ModificarMateria"
+        android:layout_weight="1"
+        android:text="Modificar" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="370dp"
+      android:layout_height="60dp"
+      android:layout_marginTop="10dp"
+      android:layout_gravity="center"
+      android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/bteliminar"
+        android:layout_width="131dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:enabled="false"
+        android:onClick="EliminarMateria"
+        android:text="Eliminar"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btanular"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="6dp"
+        android:textSize="24dp"
+        android:enabled="false"
+        android:onClick="AnularMateria"
+        android:layout_weight="1"
+        android:text="Anular" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="370dp"
+      android:layout_height="60dp"
+      android:layout_marginTop="10dp"
+      android:layout_gravity="center"
+      android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btcancelar"
+        android:layout_width="131dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:onClick="Volver"
+        android:text="Volver"
+        android:textSize="24dp" />
+  </LinearLayout>
+</LinearLayout>
