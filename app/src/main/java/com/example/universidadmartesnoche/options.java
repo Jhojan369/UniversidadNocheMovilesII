@@ -20,17 +20,22 @@ public class options extends AppCompatActivity {
         jbtMaterias = findViewById(R.id.btMaterias);
     }
 
-    public void IrEstudiantes(View view){
+    public void IrEstudiantes(View view) {
         Intent intent = new Intent(this, Student.class);
         startActivity(intent);
     }
 
-    public void IrMaterias(View view){
+    public void IrMaterias(View view) {
         Intent intent = new Intent(this, Subjects.class);
         startActivity(intent);
     }
 
-    public void Salir(View view){
+    public void IrMatriculas(View view) {
+        Intent intent = new Intent(this, Matriculas.class);
+        startActivity(intent);
+    }
+
+    public void Salir(View view) {
 
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);

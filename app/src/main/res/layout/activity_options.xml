@@ -18,16 +18,27 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="408dp"
-        android:layout_marginTop="100dp"
+        android:layout_height="441dp"
+        android:layout_marginTop="60dp"
         android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btMatriculas"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="40dp"
+            android:onClick="IrMatriculas"
+            android:text="Matriculas"
+            android:textSize="25dp" />
 
         <Button
             android:id="@+id/btMaterias"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="15dp"
             android:layout_marginRight="40dp"
             android:onClick="IrMaterias"
             android:text="Materias"
@@ -38,7 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="15dp"
             android:layout_marginRight="40dp"
             android:onClick="IrEstudiantes"
             android:text="Estudiante"
